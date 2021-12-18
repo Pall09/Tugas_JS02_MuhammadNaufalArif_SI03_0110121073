@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Picker</title>
+    <style>
+
+    h1 {
+        text-align: center;
+        margin-top: 70px;
+    }
+
+    .container {
+        border: 1px solid black;
+        border-radius: 4px;
+        width: 40%;
+        height: 200px;
+        margin: 50px auto;
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+    }
+
+    #dropDown {
+        margin: 30px 0 0 15px;
+        width: 150px;
+        height: 20px;
+    }
+
+    #gambar {
+        width: 40%;
+        margin: 30px 80px 0 0;
+    }
+
+    #poto {
+        max-width: 100%;
+        display: inline-block;
+        height: auto;
+        margin-left: 25px;
+    }
+
+    </style>
+    <script src="imagePicker.js"></script>
+</head>
+<body>
+    <h1>Image Picker</h1>
+    <div class="container">
+        <select id="dropDown" onchange="imagePicker()">
+            <option value="panda">Panda</option>
+            <option value="kelinci">Kelinci</option>
+            <option value="kucing">Kucing</option>
+            <option value="gajah">Gajah</option>
+            <option value="burung">Burung</option>
+            <option value="jerapah">Jerapah</option>
+            <option value="monyet">Monyet</option>
+        </select>
+        <div id="gambar"></div>
+    </div>
+</body>
+</html>

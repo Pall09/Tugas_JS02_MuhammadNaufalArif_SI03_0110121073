@@ -1,0 +1,49 @@
+fieldset {
+    border: 2px solid black;
+    background-color: rgba(186, 232, 236, 0.87);
+    width: 50%;
+    margin: 20px auto;
+}
+
+.container {
+    border: 2px solid black;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 5px;
+}
+
+.name {
+    display: flex;
+    justify-content: space-around;
+}
+
+.name p {
+    border: 1px solid black;
+    flex: 1;
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    justify-content: space-around;
+}
+
+input {
+    flex: 1;
+    text-align: center;
+}
+
+select {
+    flex: 1;
+    text-align: center;
+}
+
+.gh {
+    border: 1px solid black;
+    flex: 1;
+    background-color: white;
+}
+
+#hasil {
+    text-align: center;
+}

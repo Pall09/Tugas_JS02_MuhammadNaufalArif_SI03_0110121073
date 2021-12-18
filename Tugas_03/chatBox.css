@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    border: 2px solid black;
+    width: 60%;
+    height: 500px;
+    margin: 70px auto;
+}
+
+h1 {
+    padding: 0;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.chatBox {
+    border: 1px solid black;
+    width: 92%;
+    height: 400px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.bi-emoji-smile {
+    position: absolute;
+    left: 314px;
+    top: 524px;
+}
+
+#isiChat {
+    background-color: rgb(220, 255, 187);
+    padding: 5px;
+    width: 100%;
+    height: 380px;
+}
+
+.pesan {
+    margin-bottom: 2px;
+    margin-right: 2px;
+    gap: 10px;
+}
+
+#pesanChat {
+    width: 88%;
+    margin-left: 25px;
+}
+
+#kirimPesan {
+    background-color: rgb(184, 189, 184 0.856);
+    border-radius: 2px;
+    width: 8%;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#kirimPesan:hover {
+    background-color: rgb(184, 189, 184);
+}

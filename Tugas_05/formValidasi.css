@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 35%;
+    height: 400px;
+    margin: 50px auto;
+
+}
+
+h2 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.validationForm {
+    border: 1px solid black;
+    width: 85%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.formatData {
+    border: 1px solid black;
+    width: 85%;
+    height: 135px;
+    margin: 10px auto;
+    padding: 8px;
+    row-gap: 10px;
+}
+
+.formatData>div {
+    margin-top: 3px;
+}
+
+.submit {
+    width: 50%;
+    margin: 10px auto;
+    height: 20px;
+}
+
+
